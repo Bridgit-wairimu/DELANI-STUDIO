@@ -27,7 +27,11 @@ h1{
     font-weight: 200;
 }
 h2{
+    color: black;
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: bold;
 }
 .services{
     background-image: url("../images/s_image.jpg");
