@@ -136,13 +136,13 @@ textarea,::placeholder{
     float: left;
 }
 
-#destxt{
+.hide{
  display: none ;
 }
-#devtxt{
+.hide{
     display: none ; 
 }
-#prodtxt{
+.hide{
     display: none;
 }
 
