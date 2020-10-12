@@ -11,11 +11,11 @@
 #### Then code in atom or any code text editor you prefer.
 
 # BDD
-## Behaviour      ## Inputs                                  ##Outputs
-#### Enter name -    e.g Bridgit
-#### Enter email -   e.g kirikabridgit@gmail.com
-#### Enter message-  e.g looking forward to work with you
-#### submit  -                                              Thank you we have received your message successfully     
+## Behaviour                
+#### Enter name -    e.g Bridgit(input)
+#### Enter email -   e.g kirikabridgit@gmail.com(input)
+#### Enter message-  e.g looking forward to work with you(input)
+#### submit  -     Thank you we have received your message successfully(output)   
 
 # Technology used
 #### 1.Html5
