@@ -17,5 +17,8 @@ $(document).ready(function() {
 
 });
 
-
-
+$("button").click(function (execute) {
+  var customer = document.getElementById('nameDetail').value;
+  alert("Thank you " + "we have received your message successfully");
+  execute.preventDefault();
+});
