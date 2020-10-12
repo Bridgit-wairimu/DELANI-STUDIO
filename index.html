@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delani Studio</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> 
 </head>
 <body>
             <div class="header">
@@ -32,60 +33,72 @@
             requirements,we can provide a complete offering or just the pieces you need.</p>
     </div>
 
-    
-    <div class="whatWeDo">
-        <h4>WHAT WE DO</h4>
-
-        <div class="container">
-          <div class="show">
-              <img src="images/design_icon.png"> </br>
-              DESIGN
-                <div class="hide">
-                <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual design and workflows, solicit
-                  user feedback and work with you to make sure what gets built is what is needed.</p>
+  
+    <div class="whatWeDo ">
+      <h4>WHAT WE DO</h4>
+          <div class="row">
+            <div class="col-md-4" id="design">
+              <div class="hidedes">
+                <img src="./images/design_icon.png">
               </div>
+                <p>DESIGN</p>
+                <p class="hide" id="designshow">
+                    Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+                    Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
             </div>
-        </div>
-              
-            
-              <div class="show">
-              <img src="images/dev_icon.png"> </br>
-              DEVELOPMENT
-                <div class= "hide">
-                <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual design and workflows, solicit
-                  user feedback and work with you to make sure what gets built is what is needed.</p>
+            <div class="col-md-4" id="development">
+              <div class="hidedev">
+                  <img src="./images/dev_icon.png">
               </div>
+                <p>DEVELOPMENT</p>
+                <p class="hide" id="developmentshow">
+                    All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                    They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
             </div>
-
-              <div class="show">
-              <img src="images/product_icon.png">  </br>
-               PRODUCT MANAGEMENT
-              
-                <div class="hide">
-                <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p>
-              </div>
+            <div class="col-md-4" id="productmanagement">
+              <div class="hideprod">
+                  <img src="./images/product_icon.png">
+              </div>  
+                <p>PRODUCT MANAGEMENT</p>
+                <p class="hide" id="productmanagementshow">
+                      Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
+                      This iterative process allows for changes as business requirements evolve.</p>
             </div>
-           
-
-      <div class="portfolio">
-        <h1>PORTFOLIO</h1>
-        <img src="images/work1.jpg" width="250px" height="150px" >
-
-        <img src="images/work2.jpg" width="250px" height="150px" >
-
-        <img src="images/work3.jpg" width="250px" height="150px" >
-
-        <img src="images/work4.jpg" width="250px" height="150px" >
-
-        <img src="images/work5.jpg" width="250px" height="150px" >
-
-        <img src="images/work6.jpg" width="250px" height="150px" >
-
-        <img src="images/work7.jpg" width="250px" height="150px" >
-
-        <img src="images/work8.jpg" width="250px" height="150px" >
+          </div>
       </div>
-         
+
+      <div class="Portfolio">
+        <h1>PORTFOLIO</h1>
+        <div class="row1">
+              <img src="./images/work1.jpg" alt="Weather Informer" width="250px" height="150px" id="work1">
+
+              <img src="./images/work2.jpg" alt="Diamonds" width="250px" height="150px" id="work2">
+
+              <img src="./images/work3.jpg" alt="Ontorio Security" width="250px" height="150px" id="work3">
+    
+      
+              <img src="./images/work4.jpg" alt="Design kenya" width="250px" height="150px"id="work4">
+        
+
+        <div class="row">
+              <img src="./images/work5.jpg" alt="Let's chat" width="250px" height="150px" id="work5">
+        
+    
+
+      
+              <img src="./images/work6.jpg" alt="Mobile Application" width="250px" height="150px" id="work6">
+              
+
+              <img src="./images/work7.jpg" alt="Mock-up kenya" width="250px" height="150px" id="work7">
+            
+
+
+              <img src="./images/work8.jpg" alt= "Giraffe Restaurant" width="250px" height="150px" id="work8">
+          
+              </div>
+             </div>
+             </div>
+    
 
 
             <div class="contact us">
@@ -94,7 +107,7 @@
             <form action="" class="form-cont">
                 <input type="text" name="" id="nameDetail" placeholder="Enter Name" required> <br>
                 <input type="email" name="" id="emailDetail" placeholder="Enter Email" required> <br>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Enter Message"></textarea> <br>
+                <textarea name="" cols="40" rows="15" placeholder="Enter Message"></textarea> <br>
                 <button type="submit " class="btn btn-primary">Submit</button> <br>
       
             </form>
@@ -118,6 +131,6 @@
                   </footer>
             
     <script src="./js/scripts.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    
 </body>
 </html>

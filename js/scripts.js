@@ -1,19 +1,21 @@
 $(document).ready(function() {
-  $("p").click(function() {
-    $(".show").toggle();
-    $(".hide").toggle();
-  });
+
+  $("#design").click(function(){
+    $("#designshow").toggle();
+    $(".hidedes").toggle();
+  })
+
+  $("#development").click(function(){
+    $("#developmentshow").toggle();
+    $(".hidedev").toggle();
+  })
+
+  $("#productmanagement").click(function(){
+    $("#productmanagementshow").toggle();
+    $(".hideprod").toggle();
+  })
+
 });
 
-$(document).ready(function() {
-  $("p").click(function() {
-    $(".show").toggle();
-    $(".hide").toggle();
-  });
-});
-$(document).ready(function() {
-  $("p").click(function() {
-    $(".show").toggle();
-    $(".hide").toggle();
-  });
-});
+
+
