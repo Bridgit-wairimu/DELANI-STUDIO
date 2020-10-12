@@ -14,7 +14,6 @@ $(document).ready(function() {
     $("#productmanagementshow").toggle();
     $(".hideprod").toggle();
   })
-
 });
 
 $("button").click(function (execute) {
