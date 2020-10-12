@@ -18,8 +18,8 @@ $(document).ready(function() {
 });
 
 $("button").click(function (execute) {
-  var customer = document.getElementById('nameDetail').value;
-  alert("Thank you " + customer + " we have received your message successfully");
+  var client = document.getElementById('nameDetail').value;
+  alert("Thank you " + client + " we have received your message successfully");
   execute.preventDefault();
 });
 
