@@ -126,12 +126,13 @@ textarea,::placeholder{
     padding-bottom: 10px;
 }
   button {
-    background-color: transparent;
+    background-color: skyblue;
     border-radius: 5px;
     padding-bottom: 15px;
     cursor: pointer;
     width: 150px;
     height: 40px;
+    text-align: center;
     color: white;
     font-weight: bolder;
     position: relative;

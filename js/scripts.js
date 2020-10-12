@@ -22,3 +22,4 @@ $("button").click(function (execute) {
   alert("Thank you " + "we have received your message successfully");
   execute.preventDefault();
 });
+
