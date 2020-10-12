@@ -26,7 +26,6 @@
 
 # live link
 #### https://bridgit-wairimu.github.io/DELANI-STUDIO/
-
 # License
 #### MIT LICENSE
 
