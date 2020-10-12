@@ -22,7 +22,6 @@
 #### 2.css
 #### 3.javascript
 #### 4. markdown
-#### 5.JQuery
 #### 6.Bootstrap
 
 # live link
