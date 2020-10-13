@@ -160,18 +160,14 @@ input[type=email]  {
     float: left;
 }
 
-   .whatWeDo h4 {
-        color: black;
-        text-align: center;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: large;
-        font-weight: bold;
-    }
 
     .whatWeDo{
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       text-align: center;
-      padding: 2rem;
+      padding: 0.5rem;
+      display: flex;
+      justify-content: space-around;
+      font-size: medium;
     }
 
     .whatWeDo img:hover{
