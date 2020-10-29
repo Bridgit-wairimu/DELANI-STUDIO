@@ -87,7 +87,7 @@ h5{
 }
 
 .portfolio img{
-    width: 250px;
+    width: 200px;
     padding-top:10px ;
   }
 
@@ -99,6 +99,7 @@ form{
     text-align: center;
     color: white;
     height: 400px; 
+    margin: 0 auto;
 }
 
 input[type=text] {
